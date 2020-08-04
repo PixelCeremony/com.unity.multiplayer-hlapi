@@ -10,7 +10,7 @@ namespace UnityEngine.Networking
     [AddComponentMenu("Network/NetworkManagerHUD")]
     [RequireComponent(typeof(NetworkManager))]
     [EditorBrowsable(EditorBrowsableState.Never)]
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class NetworkManagerHUD : MonoBehaviour
     {
         /// <summary>

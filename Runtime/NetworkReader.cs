@@ -66,7 +66,7 @@ namespace UnityEngine.Networking
     /// }
     /// </code>
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class NetworkReader
     {
         NetBuffer m_buf;

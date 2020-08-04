@@ -6,7 +6,7 @@ namespace UnityEngine.Networking
     /// This is used to identify networked objects in a scene. These values are allocated in the editor and are persistent for the lifetime of the object in the scene.
     /// </summary>
     [Serializable]
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public struct NetworkSceneId : IEquatable<NetworkSceneId>
     {
         public NetworkSceneId(uint value)

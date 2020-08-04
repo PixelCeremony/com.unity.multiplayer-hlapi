@@ -42,7 +42,7 @@ namespace UnityEngine.Networking
     /// </summary>
     // This can't be an interface because users don't need to implement the
     // serialization functions, we'll code generate it for them when they omit it.
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public abstract class MessageBase
     {
         /// <summary>
@@ -84,7 +84,7 @@ namespace UnityEngine.Networking.NetworkSystem
     /// }
     /// </code>
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class StringMessage : MessageBase
     {
         /// <summary>
@@ -129,7 +129,7 @@ namespace UnityEngine.Networking.NetworkSystem
     /// }
     /// </code>
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class IntegerMessage : MessageBase
     {
         /// <summary>
@@ -174,7 +174,7 @@ namespace UnityEngine.Networking.NetworkSystem
     /// }
     /// </code>
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class EmptyMessage : MessageBase
     {
         public override void Deserialize(NetworkReader reader)
@@ -190,7 +190,7 @@ namespace UnityEngine.Networking.NetworkSystem
     /// <summary>
     /// This is passed to handler functions registered for the SYSTEM_ERROR built-in message.
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class ErrorMessage : MessageBase
     {
         /// <summary>
@@ -213,7 +213,7 @@ namespace UnityEngine.Networking.NetworkSystem
     /// <summary>
     /// This is passed to handler funtions registered for the SYSTEM_READY built-in message.
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class ReadyMessage : EmptyMessage
     {
     }
@@ -221,7 +221,7 @@ namespace UnityEngine.Networking.NetworkSystem
     /// <summary>
     /// This is passed to handler funtions registered for the SYSTEM_NOT_READY built-in message.
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class NotReadyMessage : EmptyMessage
     {
     }
@@ -229,7 +229,7 @@ namespace UnityEngine.Networking.NetworkSystem
     /// <summary>
     /// This is passed to handler funtions registered for the AddPlayer built-in message.
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class AddPlayerMessage : MessageBase
     {
         /// <summary>
@@ -271,7 +271,7 @@ namespace UnityEngine.Networking.NetworkSystem
     /// <summary>
     /// This is passed to handler funtions registered for the SYSTEM_REMOVE_PLAYER built-in message.
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class RemovePlayerMessage : MessageBase
     {
         /// <summary>
@@ -296,7 +296,7 @@ namespace UnityEngine.Networking.NetworkSystem
     /// Information about a change in authority of a non-player in the same network game.
     /// <para>This information is cached by clients and used during host-migration.</para>
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class PeerAuthorityMessage : MessageBase
     {
         /// <summary>
@@ -330,7 +330,7 @@ namespace UnityEngine.Networking.NetworkSystem
     /// <summary>
     /// A structure used to identify player object on other peers for host migration.
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public struct PeerInfoPlayer
     {
         /// <summary>
@@ -348,7 +348,7 @@ namespace UnityEngine.Networking.NetworkSystem
     /// Information about another participant in the same network game.
     /// <para>This information is cached by clients and used during host-migration.</para>
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class PeerInfoMessage : MessageBase
     {
         /// <summary>
@@ -430,7 +430,7 @@ namespace UnityEngine.Networking.NetworkSystem
     /// <summary>
     /// Internal UNET message for sending information about network peers to clients.
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class PeerListMessage : MessageBase
     {
         /// <summary>
@@ -469,7 +469,7 @@ namespace UnityEngine.Networking.NetworkSystem
     /// <summary>
     /// This network message is used when a client reconnect to the new host of a game.
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class ReconnectMessage : MessageBase
     {
         /// <summary>

@@ -13,7 +13,7 @@ namespace UnityEngine.Networking
     /// <para><see cref="NetworkClient">NetworkClient</see> has an internal update function where it handles events from the transport layer. This includes asynchronous connect events, disconnect events and incoming data from a server.</para>
     /// <para>The <see cref="NetworkManager">NetworkManager</see> has a NetworkClient instance that it uses for games that it starts, but the NetworkClient may be used by itself.</para>
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class NetworkClient
     {
         Type m_NetworkConnectionClass = typeof(NetworkConnection);

@@ -68,7 +68,7 @@ namespace UnityEngine.Networking
     /// }
     /// </code>
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class NetworkWriter
     {
         const int k_MaxStringLength = 1024 * 32;

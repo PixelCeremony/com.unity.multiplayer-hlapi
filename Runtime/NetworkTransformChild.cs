@@ -8,7 +8,7 @@ namespace UnityEngine.Networking
     /// <para>There must be a NetworkTransform on the root object of the hierarchy. There can be multiple NetworkTransformChild components on an object. This does not use physics for synchronization, it simply synchronizes the localPosition and localRotation of the child transform and lerps towards the recieved values.</para>
     /// </summary>
     [AddComponentMenu("Network/NetworkTransformChild")]
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class NetworkTransformChild : NetworkBehaviour
     {
         [SerializeField]

@@ -17,7 +17,7 @@ namespace UnityEngine.Networking
     * wire protocol is a list of :   size   |  msgType     | payload
     *                               (short)  (variable)   (buffer)
     */
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class NetworkConnection : IDisposable
     {
         ChannelBuffer[] m_Channels;

@@ -13,7 +13,7 @@ namespace UnityEngine.Networking
     /// <para>Like the NetworkServer and NetworkClient classes, it allows the type of NetworkConnection class created for new connections to be specified with SetNetworkConnectionClass(), so custom types of network connections can be used with it.</para>
     /// <para>This class can be used by overriding the virtual functions OnConnected, OnDisconnected and OnData; or by registering message handlers.</para>
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class NetworkServerSimple
     {
         bool m_Initialized = false;

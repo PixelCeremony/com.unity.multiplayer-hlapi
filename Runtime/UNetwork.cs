@@ -16,7 +16,7 @@ namespace UnityEngine.Networking
     /// Container class for networking system built-in message types.
     /// </summary>
     // built-in system network messages
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class MsgType
     {
         // internal system messages - cannot be replaced by user code
@@ -259,7 +259,7 @@ namespace UnityEngine.Networking
     /// <summary>
     /// The details of a network message received by a client or server on a network connection.
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class NetworkMessage
     {
         /// <summary>
@@ -351,7 +351,7 @@ namespace UnityEngine.Networking
     /// <summary>
     /// Class containing constants for default network channels.
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class Channels
     {
         /// <summary>

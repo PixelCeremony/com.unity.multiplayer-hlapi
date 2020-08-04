@@ -7,7 +7,7 @@ namespace UnityEngine.Networking
     /// <summary>
     /// A structure that contains data from a NetworkDiscovery server broadcast.
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public struct NetworkBroadcastResult
     {
         /// <summary>
@@ -41,7 +41,7 @@ namespace UnityEngine.Networking
     /// </summary>
     [DisallowMultipleComponent]
     [AddComponentMenu("Network/NetworkDiscovery")]
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class NetworkDiscovery : MonoBehaviour
     {
         const int k_MaxBroadcastMsgSize = 1024;

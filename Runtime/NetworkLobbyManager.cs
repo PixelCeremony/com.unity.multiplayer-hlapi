@@ -14,7 +14,7 @@ namespace UnityEngine.Networking
     /// <para>The OnLobby*() functions have empty implementations on the NetworkLobbyManager base class, so the base class functions do not have to be called.</para>
     /// </summary>
     [AddComponentMenu("Network/NetworkLobbyManager")]
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class NetworkLobbyManager : NetworkManager
     {
         struct PendingPlayer

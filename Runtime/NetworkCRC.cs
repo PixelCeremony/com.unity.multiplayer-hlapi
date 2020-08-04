@@ -9,7 +9,7 @@ namespace UnityEngine.Networking
     /// This class holds information about which networked scripts use which QoS channels for updates.
     /// <para>This channel information is used to ensure that clients and servers are using compatible HLAPI script configurations.</para>
     /// </summary>
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class NetworkCRC
     {
         internal static NetworkCRC s_Singleton;

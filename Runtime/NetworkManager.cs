@@ -55,7 +55,7 @@ namespace UnityEngine.Networking
     /// </code>
     /// </summary>
     [AddComponentMenu("Network/NetworkManager")]
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class NetworkManager : MonoBehaviour
     {
         // configuration

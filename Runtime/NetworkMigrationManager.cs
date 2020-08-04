@@ -20,7 +20,7 @@ namespace UnityEngine.Networking
     /// <para>The old host of the game, the one that crashed or lost its network connection, can also reconnect to the new game as a client. This client uses the special ReconnectId of ClientScene.ReconnectIdHost (which is zero).</para>
     /// </summary>
     [AddComponentMenu("Network/NetworkMigrationManager")]
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public class NetworkMigrationManager : MonoBehaviour
     {
         /// <summary>

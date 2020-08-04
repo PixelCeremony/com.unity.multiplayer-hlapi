@@ -7,7 +7,7 @@ namespace UnityEngine.Networking
     /// </summary>
     // unrolled for your pleasure.
     [Serializable]
-    [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
+    // [Obsolete("The high level API classes are deprecated and will be removed in the future.")]
     public struct NetworkHash128
     {
         // struct cannot have embedded arrays..
