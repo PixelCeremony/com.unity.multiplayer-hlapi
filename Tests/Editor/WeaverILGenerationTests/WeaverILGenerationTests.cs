@@ -1,3 +1,4 @@
+#pragma warning disable 0618 // UNET transport deprecation
 using Mono.Cecil;
 using Mono.Cecil.Cil;
 using NUnit.Framework;

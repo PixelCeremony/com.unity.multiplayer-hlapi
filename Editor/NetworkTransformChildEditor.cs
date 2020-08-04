@@ -1,3 +1,4 @@
+#pragma warning disable 0618 // UNET transport deprecation
 #if ENABLE_UNET
 using System;
 using UnityEditor;

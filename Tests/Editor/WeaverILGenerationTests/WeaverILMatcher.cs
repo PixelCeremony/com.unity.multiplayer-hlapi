@@ -1,3 +1,4 @@
+#pragma warning disable 0618 // UNET transport deprecation
 using Mono.Cecil;
 using System;
 using System.Linq;

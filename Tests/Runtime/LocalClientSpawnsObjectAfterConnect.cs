@@ -1,3 +1,4 @@
+#pragma warning disable 0618 // UNET transport deprecation
 using System.Collections;
 using System.IO;
 using NUnit.Framework;

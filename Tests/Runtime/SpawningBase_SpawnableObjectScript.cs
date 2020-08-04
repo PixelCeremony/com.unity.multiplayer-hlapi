@@ -1,3 +1,4 @@
+#pragma warning disable 0618 // UNET transport deprecation
 using UnityEngine.Networking;
 
 #pragma warning disable 618

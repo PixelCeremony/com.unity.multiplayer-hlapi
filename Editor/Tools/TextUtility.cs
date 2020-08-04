@@ -1,3 +1,4 @@
+#pragma warning disable 0618 // UNET transport deprecation
 using UnityEngine;
 
 public static class TextUtility

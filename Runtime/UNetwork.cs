@@ -1,3 +1,4 @@
+#pragma warning disable 0618 // UNET transport deprecation
 using System;
 
 #pragma warning disable 618

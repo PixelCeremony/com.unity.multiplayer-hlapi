@@ -1,3 +1,4 @@
+#pragma warning disable 0618 // UNET transport deprecation
 /*
  * Copyright (c) 2013 Calvin Rien
  *
